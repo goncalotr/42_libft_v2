@@ -6,7 +6,7 @@
 /*   By: goteixei <goteixei@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 10:08:54 by goteixei          #+#    #+#             */
-/*   Updated: 2025/02/24 14:43:48 by goteixei         ###   ########.fr       */
+/*   Updated: 2025/04/18 16:27:24 by goteixei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -128,5 +128,7 @@ int			ft_error(const int error_code, char *error_message, int fd);
 size_t		ft_split_count(const char *s, char c);
 int			ft_convert_from_base(char *str, char *base);
 int			ft_check_base_error(char *str);
+
+int			ft_strcmp(const char *s1, const char *s2);
 
 #endif

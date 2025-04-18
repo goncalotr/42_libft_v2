@@ -6,7 +6,7 @@
 #    By: goteixei <goteixei@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/31 22:48:46 by goteixei          #+#    #+#              #
-#    Updated: 2025/02/24 14:30:11 by goteixei         ###   ########.fr        #
+#    Updated: 2025/04/18 16:26:51 by goteixei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -80,7 +80,8 @@ SRCS	= ft_isalpha.c\
 		ft_atoi_base.c\
 		ft_abs.c\
 		ft_max.c\
-		ft_min.c
+		ft_min.c\
+		ft_strcmp.c
 
 # Source files for ft_printf
 FT_PRINTF_SRCS = $(FT_PRINTF_DIR)/ft_printf.c \
